@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Hansi",
+    "password": "hansi",
+    "passwordMd5": "9ea4d6718ed1e99ac40159487a14d00a",
+    "role": "Admin"
+  },
+  {
+    "id": 2,
+    "name": "Susi",
+    "password": "susi",
+    "passwordMd5": "536931d80decb18c33db9612bdd004d4",
+    "role": "User"
+  },
+  {
+    "id": 2,
+    "name": "Pepi",
+    "password": "pepi",
+    "passwordMd5": "044b1085f2a5e087eef130d434f0dd8a",
+    "role": "User"
+  },
+  {
+    "id": 2,
+    "name": "Gerti",
+    "password": "gerti",
+    "passwordMd5": "5c23e4c938ce11e57a6377c033ea1b94",
+    "role": "User"
+  }
+]

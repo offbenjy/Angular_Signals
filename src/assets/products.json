@@ -1,0 +1,541 @@
+[
+ {
+   "id": 1,
+   "name": "Chai",
+   "price": 18,
+   "stock": 39,
+   "category": "Beverages"
+ },
+ {
+   "id": 2,
+   "name": "Chang",
+   "price": 19,
+   "stock": 17,
+   "category": "Beverages"
+ },
+ {
+   "id": 3,
+   "name": "Aniseed Syrup",
+   "price": 10,
+   "stock": 13,
+   "category": "Condiments"
+ },
+ {
+   "id": 4,
+   "name": "Chef Anton's Cajun Seasoning",
+   "price": 22,
+   "stock": 53,
+   "category": "Condiments"
+ },
+ {
+   "id": 5,
+   "name": "Chef Anton's Gumbo Mix",
+   "price": 21.35,
+   "stock": 8,
+   "category": "Condiments"
+ },
+ {
+   "id": 6,
+   "name": "Grandma's Boysenberry Spread",
+   "price": 25,
+   "stock": 120,
+   "category": "Condiments"
+ },
+ {
+   "id": 7,
+   "name": "Uncle Bob's Organic Dried Pears",
+   "price": 30,
+   "stock": 15,
+   "category": "Produce"
+ },
+ {
+   "id": 8,
+   "name": "Northwoods Cranberry Sauce",
+   "price": 40,
+   "stock": 6,
+   "category": "Condiments"
+ },
+ {
+   "id": 9,
+   "name": "Mishi Kobe Niku",
+   "price": 97,
+   "stock": 29,
+   "category": "Meat/Poultry"
+ },
+ {
+   "id": 10,
+   "name": "Ikura",
+   "price": 31,
+   "stock": 31,
+   "category": "Seafood"
+ },
+ {
+   "id": 11,
+   "name": "Queso Cabrales",
+   "price": 21,
+   "stock": 22,
+   "category": "Dairy Products"
+ },
+ {
+   "id": 12,
+   "name": "Queso Manchego La Pastora",
+   "price": 38,
+   "stock": 86,
+   "category": "Dairy Products"
+ },
+ {
+   "id": 13,
+   "name": "Konbu",
+   "price": 6,
+   "stock": 24,
+   "category": "Seafood"
+ },
+ {
+   "id": 14,
+   "name": "Tofu",
+   "price": 23.25,
+   "stock": 35,
+   "category": "Produce"
+ },
+ {
+   "id": 15,
+   "name": "Genen Shouyu",
+   "price": 15.5,
+   "stock": 39,
+   "category": "Condiments"
+ },
+ {
+   "id": 16,
+   "name": "Pavlova",
+   "price": 17.45,
+   "stock": 29,
+   "category": "Confections"
+ },
+ {
+   "id": 17,
+   "name": "Alice Mutton",
+   "price": 39,
+   "stock": 9,
+   "category": "Meat/Poultry"
+ },
+ {
+   "id": 18,
+   "name": "Carnarvon Tigers",
+   "price": 62.5,
+   "stock": 42,
+   "category": "Seafood"
+ },
+ {
+   "id": 19,
+   "name": "Teatime Chocolate Biscuits",
+   "price": 9.2,
+   "stock": 25,
+   "category": "Confections"
+ },
+ {
+   "id": 20,
+   "name": "Sir Rodney's Marmalade",
+   "price": 81,
+   "stock": 40,
+   "category": "Confections"
+ },
+ {
+   "id": 21,
+   "name": "Sir Rodney's Scones",
+   "price": 10,
+   "stock": 3,
+   "category": "Confections"
+ },
+ {
+   "id": 22,
+   "name": "Gustaf's Knäckebröd",
+   "price": 21,
+   "stock": 104,
+   "category": "Grains/Cereals"
+ },
+ {
+   "id": 23,
+   "name": "Tunnbröd",
+   "price": 9,
+   "stock": 61,
+   "category": "Grains/Cereals"
+ },
+ {
+   "id": 24,
+   "name": "Guarana Fantastica",
+   "price": 4.5,
+   "stock": 20,
+   "category": "Beverages"
+ },
+ {
+   "id": 25,
+   "name": "NuNuCa Nuss-Nougat-Creme",
+   "price": 14,
+   "stock": 76,
+   "category": "Confections"
+ },
+ {
+   "id": 26,
+   "name": "Gumbär Gummibärchen",
+   "price": 31.23,
+   "stock": 15,
+   "category": "Confections"
+ },
+ {
+   "id": 27,
+   "name": "Schoggi Schokolade",
+   "price": 43.9,
+   "stock": 49,
+   "category": "Confections"
+ },
+ {
+   "id": 28,
+   "name": "Rössle Sauerkraut",
+   "price": 45.6,
+   "stock": 26,
+   "category": "Produce"
+ },
+ {
+   "id": 29,
+   "name": "Thüringer Rostbratwurst",
+   "price": 123.79,
+   "stock": 20,
+   "category": "Meat/Poultry"
+ },
+ {
+   "id": 30,
+   "name": "Nord-Ost Matjeshering",
+   "price": 25.89,
+   "stock": 10,
+   "category": "Seafood"
+ },
+ {
+   "id": 31,
+   "name": "Gorgonzola Telino",
+   "price": 12.5,
+   "stock": 6,
+   "category": "Dairy Products"
+ },
+ {
+   "id": 32,
+   "name": "Mascarpone Fabioli",
+   "price": 32,
+   "stock": 9,
+   "category": "Dairy Products"
+ },
+ {
+   "id": 33,
+   "name": "Geitost",
+   "price": 2.5,
+   "stock": 112,
+   "category": "Dairy Products"
+ },
+ {
+   "id": 34,
+   "name": "Sasquatch Ale",
+   "price": 14,
+   "stock": 111,
+   "category": "Beverages"
+ },
+ {
+   "id": 35,
+   "name": "Steeleye Stout",
+   "price": 18,
+   "stock": 20,
+   "category": "Beverages"
+ },
+ {
+   "id": 36,
+   "name": "Inlagd Sill",
+   "price": 19,
+   "stock": 112,
+   "category": "Seafood"
+ },
+ {
+   "id": 37,
+   "name": "Gravad lax",
+   "price": 26,
+   "stock": 11,
+   "category": "Seafood"
+ },
+ {
+   "id": 38,
+   "name": "Cote de Blaye",
+   "price": 263.5,
+   "stock": 17,
+   "category": "Beverages"
+ },
+ {
+   "id": 39,
+   "name": "Chartreuse verte",
+   "price": 18,
+   "stock": 69,
+   "category": "Beverages"
+ },
+ {
+   "id": 40,
+   "name": "Boston Crab Meat",
+   "price": 18.4,
+   "stock": 123,
+   "category": "Seafood"
+ },
+ {
+   "id": 41,
+   "name": "Jack's New England Clam Chowder",
+   "price": 9.65,
+   "stock": 85,
+   "category": "Seafood"
+ },
+ {
+   "id": 42,
+   "name": "Singaporean Hokkien Fried Mee",
+   "price": 14,
+   "stock": 26,
+   "category": "Grains/Cereals"
+ },
+ {
+   "id": 43,
+   "name": "Ipoh Coffee",
+   "price": 46,
+   "stock": 17,
+   "category": "Beverages"
+ },
+ {
+   "id": 44,
+   "name": "Gula Malacca",
+   "price": 19.45,
+   "stock": 27,
+   "category": "Condiments"
+ },
+ {
+   "id": 45,
+   "name": "Rogede sild",
+   "price": 9.5,
+   "stock": 5,
+   "category": "Seafood"
+ },
+ {
+   "id": 46,
+   "name": "Spegesild",
+   "price": 12,
+   "stock": 95,
+   "category": "Seafood"
+ },
+ {
+   "id": 47,
+   "name": "Zaanse koeken",
+   "price": 9.5,
+   "stock": 36,
+   "category": "Confections"
+ },
+ {
+   "id": 48,
+   "name": "Chocolade",
+   "price": 12.75,
+   "stock": 15,
+   "category": "Confections"
+ },
+ {
+   "id": 49,
+   "name": "Maxilaku",
+   "price": 20,
+   "stock": 10,
+   "category": "Confections"
+ },
+ {
+   "id": 50,
+   "name": "Valkoinen suklaa",
+   "price": 16.25,
+   "stock": 65,
+   "category": "Confections"
+ },
+ {
+   "id": 51,
+   "name": "Manjimup Dried Apples",
+   "price": 53,
+   "stock": 20,
+   "category": "Produce"
+ },
+ {
+   "id": 52,
+   "name": "Filo Mix",
+   "price": 7,
+   "stock": 38,
+   "category": "Grains/Cereals"
+ },
+ {
+   "id": 53,
+   "name": "Perth Pasties",
+   "price": 32.8,
+   "stock": 10,
+   "category": "Meat/Poultry"
+ },
+ {
+   "id": 54,
+   "name": "Tourtiere",
+   "price": 7.45,
+   "stock": 21,
+   "category": "Meat/Poultry"
+ },
+ {
+   "id": 55,
+   "name": "Pate chinois",
+   "price": 24,
+   "stock": 115,
+   "category": "Meat/Poultry"
+ },
+ {
+   "id": 56,
+   "name": "Gnocchi di nonna Alice",
+   "price": 38,
+   "stock": 21,
+   "category": "Grains/Cereals"
+ },
+ {
+   "id": 57,
+   "name": "Ravioli Angelo",
+   "price": 19.5,
+   "stock": 36,
+   "category": "Grains/Cereals"
+ },
+ {
+   "id": 58,
+   "name": "Escargots de Bourgogne",
+   "price": 13.25,
+   "stock": 62,
+   "category": "Seafood"
+ },
+ {
+   "id": 59,
+   "name": "Raclette Courdavault",
+   "price": 55,
+   "stock": 79,
+   "category": "Dairy Products"
+ },
+ {
+   "id": 60,
+   "name": "Camembert Pierrot",
+   "price": 34,
+   "stock": 19,
+   "category": "Dairy Products"
+ },
+ {
+   "id": 61,
+   "name": "Sirop d'erable",
+   "price": 28.5,
+   "stock": 113,
+   "category": "Condiments"
+ },
+ {
+   "id": 62,
+   "name": "Tarte au sucre",
+   "price": 49.3,
+   "stock": 17,
+   "category": "Confections"
+ },
+ {
+   "id": 63,
+   "name": "Vegie-spread",
+   "price": 43.9,
+   "stock": 24,
+   "category": "Condiments"
+ },
+ {
+   "id": 64,
+   "name": "Wimmers gute Semmelknödel",
+   "price": 33.25,
+   "stock": 22,
+   "category": "Grains/Cereals"
+ },
+ {
+   "id": 65,
+   "name": "Louisiana Fiery Hot Pepper Sauce",
+   "price": 21.05,
+   "stock": 76,
+   "category": "Condiments"
+ },
+ {
+   "id": 66,
+   "name": "Louisiana Hot Spiced Okra",
+   "price": 17,
+   "stock": 4,
+   "category": "Condiments"
+ },
+ {
+   "id": 67,
+   "name": "Laughing Lumberjack Lager",
+   "price": 14,
+   "stock": 52,
+   "category": "Beverages"
+ },
+ {
+   "id": 68,
+   "name": "Scottish Longbreads",
+   "price": 12.5,
+   "stock": 6,
+   "category": "Confections"
+ },
+ {
+   "id": 69,
+   "name": "Gudbrandsdalsost",
+   "price": 36,
+   "stock": 26,
+   "category": "Dairy Products"
+ },
+ {
+   "id": 70,
+   "name": "Outback Lager",
+   "price": 15,
+   "stock": 15,
+   "category": "Beverages"
+ },
+ {
+   "id": 71,
+   "name": "Flotemysost",
+   "price": 21.5,
+   "stock": 26,
+   "category": "Dairy Products"
+ },
+ {
+   "id": 72,
+   "name": "Mozzarella di Giovanni",
+   "price": 34.8,
+   "stock": 14,
+   "category": "Dairy Products"
+ },
+ {
+   "id": 73,
+   "name": "Röd Kaviar",
+   "price": 15,
+   "stock": 101,
+   "category": "Seafood"
+ },
+ {
+   "id": 74,
+   "name": "Longlife Tofu",
+   "price": 10,
+   "stock": 4,
+   "category": "Produce"
+ },
+ {
+   "id": 75,
+   "name": "Rhönbräu Klosterbier",
+   "price": 7.75,
+   "stock": 125,
+   "category": "Beverages"
+ },
+ {
+   "id": 76,
+   "name": "Lakkalikööri",
+   "price": 18,
+   "stock": 57,
+   "category": "Beverages"
+ },
+ {
+   "id": 77,
+   "name": "Original Frankfurter grüne Soße",
+   "price": 13,
+   "stock": 32,
+   "category": "Condiments"
+ }
+]
