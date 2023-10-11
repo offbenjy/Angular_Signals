@@ -1,0 +1,16 @@
+<table class="delivery-table">
+  <tr>
+    <th>Name</th>
+    <th>Amount</th>
+    <th>User</th>
+    <th>Date</th>
+    <th>Price</th>
+  </tr>
+  <tr *ngFor="let delivery of dataService.filteredDelivery()">
+    <td>{{ delivery.name }}</td>
+    <td>{{ delivery.amount }}</td>
+    <td>{{ delivery.user }}</td>
+    <td>{{ delivery.date }}</td>
+    <td>{{ delivery.price }}</td>
+  </tr>
+</table>

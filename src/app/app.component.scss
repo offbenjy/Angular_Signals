@@ -1,45 +1,65 @@
-// table{
-//     border: 1px solid black;
-//     border-collapse: collapse;
-// }
-// td,th{
-//     border: 1px solid black;
-// }
-// .password{
 
-// margin-left: 20px;
-// }
-
-// input[type=text], select {
-//     width: 10%;
-//     padding: 12px 20px;
-//     margin: 8px 0;
-//     display: inline-block;
-//     border: 1px solid #ccc;
-//     border-radius: 4px;
-//     box-sizing: border-box;
-//   }
-
-
+/* Style the container */
+/* Style the container */
 .container {
-    position: absolute;
-    width: 300px; /* Breite des Containers anpassen */
-    
-    /* Stil für das Eingabefeld */
-  .input-field {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
-  }
-  
-  /* Stil für das <label> Element */
-  .password-label {
-    font-weight: bold;
-    margin-bottom: 5px;
-    top: 5px; /* Anpassen, um die gewünschte vertikale Positionierung innerhalb des Containers zu erreichen */
-    left: 5px; /* Anpassen, um die gewünschte horizontale Positionierung innerhalb des Containers zu erreichen */
-  }
-  }
-  
-  
+  display: flex;
+  flex-direction: row;
+  //align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* Style the input fields container */
+.input-fields {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Style the input field */
+.input-field {
+  flex: 1;
+  margin-right: 10px;
+}
+
+/* Style the labels */
+.password-label {
+  font-weight: bold;
+}
+
+/* Style the delivery container */
+.delivery-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+/* Style the delivery list */
+.delivery-list {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+/* Style the delivery add */
+.delivery-add {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 10px;
+}
+.Admin{
+  font-weight: bold;
+  background-color: lightblue;
+}
+.User{
+  font-weight: bold;
+  background-color: lightgreen;
+}

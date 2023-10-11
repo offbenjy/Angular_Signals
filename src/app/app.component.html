@@ -3,11 +3,35 @@
   <div class="input-field">
     <label class="password-label">First Name</label>
     <input type="text" #txtUser class="form-control" id="fname" [ngModel]="userService.username()"
-    (keyup)="userService.username.set(txtUser.value)"
+    (keyup)="onKeyUpUsername(txtUser.value)"
     placeholder="Username">
   </div>
+
+
+  <div class="input-field" *ngIf="userService.isUserKnown()">
+    <label class="password-label">Passwort</label>
+    <input type="text" #txtPass class="form-control"  [ngModel]="userService.password()"
+           (keyup)="onKeyUpPassword(txtPass.value)"
+           placeholder="Passwort">
+  </div>
+
+  <div class="input-field" *ngIf="userService.isLoggedIn()">
+    <label class="{{userService.currentUser()?.role}}" >{{userService.currentUser()?.role}}</label>
+
+  </div>
+
+  <div class="input-field" *ngIf="userService.isLoggedIn()">
+    <label  class="password-label">{{userService.welcomeMessage2()}}</label>
+  </div>
+
 </div>
 
-
-
+<div class="delivery-container" *ngIf="userService.isLoggedIn()">
+  <div class="delivery-list">
+    <app-delivery-list></app-delivery-list>
+  </div>
+  <div class="delivery-add">
+    <app-delivery-add></app-delivery-add>
+  </div>
+</div>
 

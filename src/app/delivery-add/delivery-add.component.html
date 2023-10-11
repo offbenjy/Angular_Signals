@@ -1,0 +1,35 @@
+<div class="container">
+  <input type="text" #filter id="filter"
+         [ngModel]="dataService.productsFilter()" placeholder="Filter products"
+         (keyup)="dataService.productsFilter.set(filter.value)">
+
+  <select #selectElement [ngModel]="dataService.selectedCategory()" size="5"
+          (click)="dataService.setCategory(selectElement.value);">
+    <option *ngFor="let category of dataService.categories()" [value]="category"
+    >{{ category }}</option>
+  </select>
+  <select #selectProduct [ngModel]="dataService.selectedProduct()" size="5"
+          (click)="dataService.setProduct(selectProduct.value)">
+    <option *ngFor="let allProducts of dataService.filteredProducts()"
+            [value]="allProducts.name">{{ allProducts.name }}  </option>
+  </select>
+</div>
+<label class="stock" *ngIf="dataService.selectedProduct() != null">
+  Stock: {{ dataService.stock() }} /
+</label>
+
+<label class="price" *ngIf="dataService.selectedProduct() != null">
+  Price: {{ dataService.price() }}
+</label>
+
+<input type="number" [ngModel]="dataService.amount()" #amount
+       *ngIf="dataService.selectedProduct() != null"
+       class="amount"
+       max="{{ dataService.selectedProduct().stock }}" min="0"
+       (click)="dataService.amount.set(+amount.value)">
+
+<label class="total" *ngIf="dataService.selectedProduct() != null">
+  Total: {{ dataService.totalPrice() }}
+</label>
+<button class="button" *ngIf="dataService.selectedProduct() != null"
+        (click)="dataService.addNewDelivery(true)">Add</button>
